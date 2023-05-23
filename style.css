@@ -1,0 +1,147 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  width: 80px; 
+  height: auto; 
+}
+
+header {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+nav {
+  background-color: #333;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  background-color: #f2f2f2;
+  color: #333;
+}    
+h1 {
+  font-size: 32px;
+}
+
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  width: 80%;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  text-align: left;
+}
+
+main {
+  padding: 20px;
+}
+
+.team-members {
+  list-style-type: disc; /* Use bullets as list markers */
+  padding-left: 20px; /* Add some indentation to the list */
+}
+
+.team-members li {
+  margin-bottom: 5px; /* Add spacing between list items */
+}
+
+/* Footer */
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid #ccc;
+}
+
+.product-image {
+  width: 200px; /* Set the desired width */
+  height: 200px; /* Set the desired height */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  
+}
+
+
+
+/*Contact Us Page*/
+
+.contact-form {
+  margin-top: 40px;
+}
+
+.contact-form h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/*Social Media Linking */
+.social-media-links {
+  text-align: center;
+}
+
+.social-media-links a {
+  display: inline-block;
+  margin: 10px;
+}
+
+.social-media-links img {
+  width: 100px;
+  height: 100px;
+}
